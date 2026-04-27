@@ -59,7 +59,7 @@ Tools & Concepts
 📫 Connect With Me
 
 * 📧 Email: ss6621841@gmail.com
-* 💼 LinkedIn: linkedin.com/in/saurav-singh19
+* 💼 LinkedIn: https://www.linkedin.com/in/saurav-singh19/
 
 👤 Pronouns
 
