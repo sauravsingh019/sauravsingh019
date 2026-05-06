@@ -60,6 +60,7 @@ Tools & Concepts
 
 * 📧 Email: ss6621841@gmail.com
 * 💼 LinkedIn: https://www.linkedin.com/in/saurav-singh19/
+* 🌐 Portfolio: https://sauravsinghdev.netlify.app
 
 👤 Pronouns
 
