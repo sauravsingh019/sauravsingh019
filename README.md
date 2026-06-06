@@ -1,72 +1,109 @@
-Hi there, I'm Saurav Singh 👋
+# Hi there, I'm Saurav Singh 👋
 
-> Building at the intersection of full-stack development, data, and intelligent systems.
+### Full Stack Developer | AI-Powered Applications | MERN Stack | Python | Data Analytics
 
-I'm a passionate developer focused on creating practical, impactful, and user-centric solutions. I enjoy working across the stack and exploring how data and intelligent systems can solve real-world problems.
+> Building scalable web applications, intelligent systems, and data-driven solutions that solve real-world problems.
 
-🚀 About Me
+## 🚀 About Me
 
-* 💻 Full Stack Developer interested in building scalable and responsive applications
-* 🌱 Currently growing as a **MERN Stack Developer** through real-world projects
-* 🐍 Python developer focused on automation, backend systems, and problem-solving
-* 🤖 Exploring **AI/ML** to build smarter, data-driven applications
-* 📊 Interested in transforming raw data into meaningful insights through analysis and visualization
+I'm a BCA graduate specializing in Data Science & Big Data Analytics with hands-on experience in Full Stack Development, AI-powered applications, and Data Analytics.
 
-🛠️ Tech Stack
+I enjoy turning ideas into products by combining modern frontend technologies, scalable backend systems, and AI capabilities.
 
-Frontend
+* 💻 Full Stack Developer with experience in MERN Stack
+* 🤖 Building AI-powered applications using LLMs and AI APIs
+* 📊 Passionate about Data Analytics and Interactive Dashboards
+* 🐍 Python Developer focused on automation and intelligent workflows
+* 🌱 Continuously learning new technologies and best practices
 
-* HTML, CSS, JavaScript, React
+---
 
-Backend
+## 🛠️ Tech Stack
 
-* Node.js, Express.js, Python
+### Frontend
 
-Database
+React.js • Next.js • JavaScript • HTML5 • CSS3 • Tailwind CSS
 
-* MongoDB, SQL
+### Backend
 
-AI/ML & Data
+Node.js • Express.js • REST APIs • JWT Authentication
 
-* Machine Learning, Data Analysis, Data Visualization
+### Databases
 
-Tools & Concepts
+MongoDB • MySQL • SQL
 
-* Git, GitHub, REST APIs, Cloud Basics, DevOps Fundamentals
+### AI / ML
 
-📚 Currently Learning
+Python • TensorFlow • NLP • LLM Applications • OpenAI APIs
 
-* Advanced **Python** and practical machine learning applications
-* Full Stack Development with **React, Node.js, Express.js, MongoDB**
-* Efficient database design and optimization using **SQL**
-* Cloud platforms and DevOps workflows for deployment
+### Data Analytics
 
-🤝 Open to Collaborate On
+Power BI • Pandas • NumPy • Data Visualization
 
-* Full Stack Web Applications
-* MERN Stack Projects
-* Python Automation & Backend Systems
-* AI/ML and Data Analysis Projects
+### Tools
+
+Git • GitHub • Firebase • Clerk Authentication • Vercel • Figma
+
+---
+
+## 🚀 Featured Projects
+
+### 📊 DataPulse – Full Stack Analytics Platform
+
+* MERN-based analytics platform
+* Interactive dashboards and data visualization
+* Survey builder and dataset analysis
+
+### 🤖 CareerOS – AI Career Assistant
+
+* Resume analysis and skill detection
+* AI-powered career guidance chatbot
+* Personalized recommendations
+
+### 🚖 CabGPT – AI Cab Booking Assistant
+
+* NLP-powered booking workflow
+* Real-time fare estimation
+* Dynamic pricing insights
+
+### 📈 Autonomous LinkedIn Growth Agent
+
+* Multi-agent AI system
+* RAG-based context retrieval
+* Automated LinkedIn content generation
+
+---
+
+## 📚 Currently Learning
+
+* Advanced React & Next.js
+* AI Agents and LLM Workflows
+* Cloud Deployment & DevOps
+* System Design Fundamentals
+
+---
+
+## 🤝 Open to Collaborate On
+
+* Full Stack Development Projects
+* AI & LLM Applications
+* Data Analytics Dashboards
 * Open Source Contributions
 
-💡 What I Love Building
+---
 
-* Responsive and user-friendly web applications
-* Backend-driven full stack systems
-* Data dashboards and analytics tools
-* Intelligent solutions using Python & ML
+## 📫 Connect With Me
 
-📫 Connect With Me
+📧 Email: ss6621841@gmail.com
 
-* 📧 Email: ss6621841@gmail.com
-* 💼 LinkedIn: https://www.linkedin.com/in/saurav-singh19/
-* 🌐 Portfolio: https://sauravsinghdev.netlify.app
+💼 LinkedIn: https://www.linkedin.com/in/saurav-singh19/
 
-👤 Pronouns
+🌐 Portfolio: https://sauravsinghdev.netlify.app
 
-He
+---
 
-⚡ Fun Fact
+### ⚡ Fun Fact
 
-I once built a chatbot for my personal website—just to automate my social interactions 😄
+I enjoy building AI-powered tools that automate repetitive tasks and make everyday workflows smarter.
+
 
