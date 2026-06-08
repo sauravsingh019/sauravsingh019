@@ -1,0 +1,170 @@
+<svg width="860" height="180" viewBox="0 0 860 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;family=Syne:wght@800&amp;display=swap');
+
+      .bg { fill: #020817; }
+      .scanline-rect { fill: none; stroke: rgba(0,0,0,0.06); stroke-width: 2; }
+
+      .name {
+        font-family: 'Syne', 'Arial Black', sans-serif;
+        font-size: 42px; font-weight: 800;
+        fill: #BAE6FD;
+        filter: url(#glow);
+        animation: flicker 7s ease-in-out infinite;
+      }
+      @keyframes flicker {
+        0%,93%,100%  { opacity: 1; }
+        94%           { opacity: 0.45; }
+        95%           { opacity: 1; }
+        96.5%         { opacity: 0.2; }
+        97%           { opacity: 1; }
+      }
+
+      .cursor {
+        fill: #38BDF8;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .tagline {
+        font-family: 'Space Mono', monospace;
+        font-size: 11px; fill: #818CF8;
+        letter-spacing: 0.1em;
+        animation: fadeIn 1.2s ease both;
+      }
+      @keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+
+      .sysdot-r { fill: #F87171; }
+      .sysdot-y { fill: #FBBF24; }
+      .sysdot-g { fill: #34D399; }
+
+      .sysbar {
+        font-family: 'Space Mono', monospace;
+        font-size: 10px; fill: #475569; letter-spacing: 0.08em;
+        animation: fadeIn 0.6s ease both;
+      }
+
+      .badge {
+        font-family: 'Space Mono', monospace;
+        font-size: 9px; fill: #38BDF8; letter-spacing: 0.08em;
+      }
+      .badge-box {
+        fill: rgba(56,189,248,0.07);
+        stroke: rgba(56,189,248,0.25); stroke-width: 0.5;
+      }
+
+      .b1 { animation: slideIn 0.5s 0.8s ease both; }
+      .b2 { animation: slideIn 0.5s 1.0s ease both; }
+      .b3 { animation: slideIn 0.5s 1.2s ease both; }
+      @keyframes slideIn { from{opacity:0;transform:translateX(-10px)} to{opacity:1;transform:none} }
+
+      .pulse-dot {
+        fill: #34D399;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%,100% { opacity:1; r:3; }
+        50%      { opacity:0.4; r:5; }
+      }
+
+      .ver { font-family:'Space Mono',monospace; font-size:10px; fill:#475569; letter-spacing:0.06em; }
+
+      /* scanlines */
+      .scanlines { opacity: 0.035; }
+    </style>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="860" height="180" rx="0"/>
+
+  <!-- Scanlines overlay -->
+  <g class="scanlines">
+    <rect x="0" y="0"   width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="4"   width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="8"   width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="12"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="16"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="20"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="24"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="28"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="32"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="36"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="40"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="44"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="48"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="52"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="56"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="60"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="64"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="68"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="72"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="76"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="80"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="84"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="88"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="92"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="96"  width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="100" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="104" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="108" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="112" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="116" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="120" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="124" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="128" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="132" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="136" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="140" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="144" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="148" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="152" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="156" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="160" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="164" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="168" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="172" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+    <rect x="0" y="176" width="860" height="2" fill="rgba(0,0,0,0.5)"/>
+  </g>
+
+  <!-- Top sys bar -->
+  <circle class="sysdot-r" cx="28" cy="20" r="4"/>
+  <circle class="sysdot-y" cx="44" cy="20" r="4"/>
+  <circle class="sysdot-g" cx="60" cy="20" r="4"/>
+  <text class="sysbar" x="76" y="24">~/saurav-singh/profile.md</text>
+  <text class="ver" x="820" y="24" text-anchor="end">v2.0.26</text>
+
+  <!-- Separator line -->
+  <line x1="20" y1="34" x2="840" y2="34" stroke="rgba(56,189,248,0.12)" stroke-width="0.5"/>
+
+  <!-- Main name -->
+  <text class="name" x="28" y="90">Saurav Singh</text>
+  <!-- Blinking cursor -->
+  <rect class="cursor" x="329" y="58" width="3" height="38" rx="1"/>
+
+  <!-- Tagline -->
+  <text class="tagline" x="28" y="116">// FULL STACK DEV · AI ENGINEER · DATA ALCHEMIST</text>
+
+  <!-- Badges -->
+  <g class="b1">
+    <rect class="badge-box" x="28" y="130" width="118" height="20" rx="2"/>
+    <text class="badge" x="87" y="144" text-anchor="middle">[ OPEN TO COLLAB ]</text>
+  </g>
+  <g class="b2">
+    <rect class="badge-box" x="154" y="130" width="88" height="20" rx="2"/>
+    <text class="badge" x="198" y="144" text-anchor="middle">[ MERN STACK ]</text>
+  </g>
+  <g class="b3">
+    <rect class="badge-box" x="250" y="130" width="78" height="20" rx="2"/>
+    <text class="badge" x="289" y="144" text-anchor="middle">[ LLM APPS ]</text>
+  </g>
+
+  <!-- Bottom status -->
+  <line x1="20" y1="162" x2="840" y2="162" stroke="rgba(56,189,248,0.12)" stroke-width="0.5"/>
+  <circle class="pulse-dot" cx="30" cy="172" r="3"/>
+  <text class="sysbar" x="42" y="176">SYSTEMS ONLINE · BUILDING IN PUBLIC · OPEN TO OPPORTUNITIES</text>
+</svg>
