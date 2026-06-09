@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="saurav_profile.svg" alt="Saurav Singh GitHub Profile" width="100%"/>
+  <img src="saurav_profile (1).svg" alt="Saurav Singh GitHub Profile" width="100%"/>
 </div>
